@@ -54,6 +54,7 @@ public class TestPluralsActivity extends Activity
         //languages.add( new LanguageDesciptor("Hindi"      , "hi") );  // PluralRules_Zero
         //languages.add( new LanguageDesciptor("Thai"       , "th") );  // PluralRules_None
         //languages.add( new LanguageDesciptor("Arabic"     , "ar") );  // PluralRules_Arabic
+        languages.add( new LanguageDesciptor("Chinese"     , "zh") );  // PluralRules_Arabic
         
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         ArrayAdapter<LanguageDesciptor> adapter = new ArrayAdapter<LanguageDesciptor>(this, android.R.layout.simple_spinner_item, languages.toArray(new LanguageDesciptor [0]));

@@ -92,7 +92,7 @@ abstract public class PluralRules
         addRules( new String [] {"sl"}, new PluralRules_Slovenian());
         addRules( new String [] {"ar"}, new PluralRules_Arabic());
         addRules( new String [] {"mk"}, new PluralRules_Macedonian());
-        addRules( new String [] {"cy"}, new PluralRules_Welsh());
+        addRules( new String [] {"cy", "zh" }, new PluralRules_Welsh());
         addRules( new String [] {"br"}, new PluralRules_Breton());
         addRules( new String [] {"lag"}, new PluralRules_Langi());
         addRules( new String [] {"shi"}, new PluralRules_Tachelhit());
@@ -100,7 +100,7 @@ abstract public class PluralRules
         addRules( new String [] {"ga", "se", "sma", "smi", "smj", "smn", "sms"}, new PluralRules_Two());
         addRules( new String [] {"ak", "am", "bh", "fil", "tl", "guw", "hi", "ln", "mg", "nso", "ti", "wa"}, new PluralRules_Zero());
         addRules( new String [] {"az", "bm", "fa", "ig", "hu", "ja", "kde", "kea", "ko", "my", "ses", "sg", "to",
-                                 "tr", "vi", "wo", "yo", "zh", "bo", "dz", "id", "jv", "ka", "km", "kn", "ms", "th"}, new PluralRules_None());
+                                 "tr", "vi", "wo", "yo", "bo", "dz", "id", "jv", "ka", "km", "kn", "ms", "th"}, new PluralRules_None());
     }
     
     public static void addRules( String [] languages, PluralRules rules ) {
